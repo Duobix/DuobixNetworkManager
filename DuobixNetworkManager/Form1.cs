@@ -97,6 +97,16 @@ namespace DuobixNetworkManager
             shelldoings("ping", "", null, 1);
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            shelldoings("ipconfig", @"/flushdns", null, 1);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
         
 
     }
